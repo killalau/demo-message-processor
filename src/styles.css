@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import '../node_modules/primeng/resources/themes/omega/theme.css';
+@import '../node_modules/primeng/resources/primeng.min.css';
+
+/*
+ * Reset CSS
+ */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+input,
+select,
+textarea {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+/*
+ * Util class
+ */
+
+/*
+ * Basic style
+ */
+#app {
+  padding: 15px;
+}
+
+.section {
+  padding: 15px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.card {
+  padding: 20px 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 15px #aaa;
+}
